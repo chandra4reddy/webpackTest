@@ -1,0 +1,28 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "sample webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandra4reddy/webpackTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandra4reddy/webpackTest/issues"
+  },
+  "homepage": "https://github.com/chandra4reddy/webpackTest#readme",
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.15.0"
+  }
+}
